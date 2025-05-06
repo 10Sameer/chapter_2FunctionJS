@@ -59,3 +59,15 @@ array.forEach((value) =>{
         console.log(`The square is ${arr *arr}`, index)
     });
 }
+
+   console.log("Using Arrow method and later calling it".toUpperCase());
+
+// USING Arrow Funtion and later calling it CALLBACK
+    {
+        let arr = [55,66,77,88,99];
+        let calcSquare = (arr) => {
+            console.log(`The square is ${arr *arr}`);
+        };
+
+        arr.forEach(calcSquare);
+    }

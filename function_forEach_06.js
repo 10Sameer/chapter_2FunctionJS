@@ -13,3 +13,10 @@ array.forEach((value) =>{
 });
 }
 
+// For string data
+{
+    let name = ['Sameer','sam','hero','zero','piro'];
+    name.forEach((names) => {
+        console.log(names);
+    });
+}

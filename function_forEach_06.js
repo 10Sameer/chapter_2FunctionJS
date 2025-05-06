@@ -4,6 +4,8 @@
 
 // Call function is a function passed as an argument to another Function
 
+//There are 3 parameters in ForEach (return type, index, array);
+
 // Example of ForEach Function
 
 {
@@ -27,5 +29,13 @@ array.forEach((value) =>{
     bike.forEach((bikes) => {
         console.log(bikes.toUpperCase());
 
+    });
+}
+
+// Now giving index to the printed items 
+{
+    let city =['ktm','Pokhara','dharan','sailung','lalitpur','pharping','kirtipur'];
+    city.forEach((name,index) => {
+       console.log(name.toUpperCase(),index)
     });
 }

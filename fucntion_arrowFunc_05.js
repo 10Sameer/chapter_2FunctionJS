@@ -26,7 +26,7 @@ const newFunction = (a,b) => {
         let count = 0 ;
         for (const char of str)
 
-        if(char==="a","A" ||
+        if(char === "a","A" ||
            char==="e","E" || 
            char==="i","I" ||
            char==="o","O" ||
@@ -44,4 +44,3 @@ const newFunction = (a,b) => {
  }
  
 
- // if (char != "a")

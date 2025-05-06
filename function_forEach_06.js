@@ -20,3 +20,12 @@ array.forEach((value) =>{
         console.log(names);
     });
 }
+
+// For Changing to upper and lower case
+{
+    let bike = ['Fz','nx200','duke','ns','bullet','java','honda'];
+    bike.forEach((bikes) => {
+        console.log(bikes.toUpperCase());
+
+    });
+}

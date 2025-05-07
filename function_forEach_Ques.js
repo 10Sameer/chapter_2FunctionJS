@@ -25,3 +25,13 @@
     });
 }
 
+// 4. let numbers = [10, 20, 30, 40]; using call back  method
+{
+    let numbers = [60, 70, 80, 90];
+    let sum = (num) => {
+        console.log(`The sum of numbers ${num} = ${num + num}`);
+    }
+    
+    numbers.forEach(sum);
+}
+

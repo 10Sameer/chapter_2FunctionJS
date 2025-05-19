@@ -21,7 +21,15 @@
     </h1>
 
     <h2 class="MyClass">
-        learming JavaScript
+        learning JavaScript
+    </h2>
+
+    <h2 class="MyClass">
+        learning JavaScript 2
+    </h2>
+
+    <h2 class="MyClass">
+        learning JavaScript 3
     </h2>
 
    <p>This is first</p>
@@ -48,11 +56,20 @@
 // Query Selectors
 
     // The best accessing method is Query Selector which helps to access any Id class TagName
+
+    // query Selector To select Paragraphs
     let element = document.querySelector("p");  // only selects 1st elements
     console.dir(element);
 
     let elements = document.querySelectorAll("p"); // acess all Paragragh
     console.dir(elements);
-    
+
+    // Queery selectors for accessing Class
+    let forClass  = document.querySelector(".MyClass"); // for single class
+    console.dir(forClass)
+
+    let forClasses = document.querySelectorAll(".MyClass");
+    console.dir(forClasses)
+
 </script>
 </html>

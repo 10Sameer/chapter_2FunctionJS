@@ -26,6 +26,8 @@
 
    <p>This is first</p>
    <p>This is second</p>
+   <p>This is Third</p>
+   <p>This is Fourth</p>
 </body>
 
 <script>
@@ -41,5 +43,16 @@
     // Acessing The heading or paragraph 
     let para = document.getElementsByTagName("p");
     console.dir(para)
+
+
+// Query Selectors
+
+    // The best accessing method is Query Selector which helps to access any Id class TagName
+    let element = document.querySelector("p");  // only selects 1st elements
+    console.dir(element);
+
+    let elements = document.querySelectorAll("p"); // acess all Paragragh
+    console.dir(elements);
+    
 </script>
 </html>

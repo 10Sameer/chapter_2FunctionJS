@@ -1,4 +1,4 @@
-<div>Im a div
+<!-- <div>Im a div
    <div> Abcd </div>
     <p>Helloo</p>
     <h1>Hey</h1>
@@ -12,3 +12,47 @@
     console.log(names.lastElementChild);
 
 </script>
+
+
+<!--  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="visibility: hidden;">HELLO</h1>
+    <div>
+        <h3>Fruits</h3>
+        <ul>
+           <li>Mango</li>
+           <li>Apple</li>
+           <li>Orange</li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    let div = document.querySelector("div");
+    console.dir(div);
+
+    // innerText is used to display all the innerTEXT or inner content that The topic contains
+
+    let inner = div.innerText ;
+    console.dir(inner);
+
+    // innerHTML is used to display all the HTML content that a topic contains
+
+    let innerh = div.innerHTML ;
+    console.dir(innerh);
+
+
+    // textCOntent is used to show the hidden item or content 
+    let header = document.querySelector("H1");
+    console.dir(header);
+</script>
+</html>

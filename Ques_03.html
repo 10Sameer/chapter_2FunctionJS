@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box{
+            height: 100px ;
+            width: 100px;
+            color: Red;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 25px;
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <h2>Hello JavaScript</h2>
 
+    <div class="box">First</div>
+    <div class="box">Second</div>
+    <div class="box">Third</div>
 
 </body>
 
@@ -16,6 +31,16 @@
     console.dir(h2.innerText);
 
     h2.innerText = h2.innerText + " From a CutiePie";
-    console.log(h2.innerText)
+    console.log(h2.innerText);
+
+
+    // for Div Box
+    let div = document.getElementsByClassName("box");
+    console.dir(div);
+
+    console.log(div[0]);
+    console.log(div[0].innerText);
+    
+    div[0].innerText = div[0].innerText + " Is the Best"
 </script>
 </html>
